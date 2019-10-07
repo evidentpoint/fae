@@ -144,4 +144,6 @@ SimpleForm.setup do |config|
 
   # Default class for inputs
   # config.input_class = nil
+
+  config.custom_inputs_namespaces << "FaeInputs"
 end
